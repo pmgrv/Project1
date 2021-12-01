@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-01T11:18:02Z" name="Suite" finished-at="2021-12-01T11:18:29Z" duration-ms="26493">
+    <groups>
+    </groups>
+    <test started-at="2021-12-01T11:18:02Z" name="Test" finished-at="2021-12-01T11:18:29Z" duration-ms="26493">
+      <class name="base.SwagLabs">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:base.SwagLabs@42a15bdc]" started-at="2021-12-01T16:48:02Z" name="SetUp" finished-at="2021-12-01T16:48:05Z" duration-ms="3098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="GetCart()[pri:0, instance:base.SwagLabs@42a15bdc]" started-at="2021-12-01T16:48:05Z" name="GetCart" finished-at="2021-12-01T16:48:11Z" duration-ms="6162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetCart -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:base.SwagLabs@42a15bdc]" started-at="2021-12-01T16:48:11Z" name="TearDown" finished-at="2021-12-01T16:48:12Z" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:base.SwagLabs@42a15bdc]" started-at="2021-12-01T16:48:12Z" name="SetUp" finished-at="2021-12-01T16:48:14Z" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Login()[pri:0, instance:base.SwagLabs@42a15bdc]" started-at="2021-12-01T16:48:14Z" name="Login" finished-at="2021-12-01T16:48:19Z" duration-ms="4767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:base.SwagLabs@42a15bdc]" started-at="2021-12-01T16:48:19Z" name="TearDown" finished-at="2021-12-01T16:48:20Z" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:base.SwagLabs@42a15bdc]" started-at="2021-12-01T16:48:20Z" name="SetUp" finished-at="2021-12-01T16:48:22Z" duration-ms="2185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifyCart()[pri:0, instance:base.SwagLabs@42a15bdc]" started-at="2021-12-01T16:48:22Z" name="VerifyCart" finished-at="2021-12-01T16:48:28Z" duration-ms="5977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCart -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:base.SwagLabs@42a15bdc]" started-at="2021-12-01T16:48:28Z" name="TearDown" finished-at="2021-12-01T16:48:29Z" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- base.SwagLabs -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
