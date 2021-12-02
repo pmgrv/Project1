@@ -95,6 +95,19 @@ public class SwagLabs {
 		//WebElement finishCart = driver.findElement(null);
 	}
 	
+	@Test
+	public static void VerifyCartAutoExecute() {
+		SwagLabs.GetCart();
+		WebElement invPriceV = driver.findElement(By.xpath("//div[@class='inventory_item_price']"));
+		WebElement invNameV= driver.findElement(By.xpath("//div[@class='inventory_item_name']"));
+		String invNAMEV  = invNameV.getText();
+		String invPRICEV = invPriceV.getText();
+		Assert.assertEquals(invNAMEV, invNAME);
+		Assert.assertEquals(invPRICEV, invPRICE);
+		System.out.println("In VerifyCart: \nPRice : " + invPRICEV + "\nNAME: " + invNAMEV);
+		//WebElement finishCart = driver.findElement(null);
+	}
+	
 	@AfterMethod
 	public static void TearDown() {
 		driver.quit();
